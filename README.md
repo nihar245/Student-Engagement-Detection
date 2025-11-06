@@ -404,22 +404,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🌟 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{student_engagement_detection_2025,
-  author = {Nihar},
-  title = {Student Engagement Detection using BEiT Vision Transformer},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/nihar245/Student-Engagement-Detection}
-}
-```
-
----
-
 <div align="center">
 
 **⭐ Star this repo if you find it helpful!**
