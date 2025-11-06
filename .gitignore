@@ -21,6 +21,12 @@ dist/
 *.bin
 *.onnx
 *.h5
+*.safetensors
+
+# Model directories
+final model 4/
+final model 3/
+final_model*/
 
 # Dataset (too large)
 dataset/
