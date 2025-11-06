@@ -84,6 +84,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+### (Optional) Register a Jupyter kernel for the venv
+
+If you want the notebook to use the project's virtual environment as a kernel in Jupyter, register an IPython kernel that points to the venv Python. Run this after activating the venv:
+
+```bash
+python -m ipykernel install --user --name "project-venv" --display-name "Engagement-Detection (venv)"
+```
+
+After running the command above, select the kernel named "Engagement-Detection (venv)" inside Jupyter or VS Code when opening `Model_Live_Demo.ipynb`.
+
 ### Step 4: Download Trained Model
 
 **The trained model is too large for GitHub (327 MB). Download it separately:**

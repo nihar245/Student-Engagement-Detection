@@ -31,3 +31,5 @@ mss==9.0.1
 # - If using CUDA wheels, install with the PyTorch extra index, e.g.:
 #   pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.4.1 torchvision==0.19.1
 # - tkinter is part of the Python standard library on Windows; no pip package needed.
+# Ensure kernel package is available to register kernels
+ipykernel>=2.0.0
