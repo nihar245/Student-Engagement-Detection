@@ -390,15 +390,12 @@ dataset/
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 📧 Contact
 
-**Nihar** - [@nihar245](https://github.com/nihar245)
+**Nihar**: [@nihar245](https://github.com/nihar245)
+
+**Advait**: [@Asterrage2209](https://github.com/Asterrage2209)
 
 **Project Link**: [https://github.com/nihar245/Student-Engagement-Detection](https://github.com/nihar245/Student-Engagement-Detection)
 
