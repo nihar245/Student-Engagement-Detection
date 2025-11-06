@@ -1,0 +1,33 @@
+# Requirements for nihar_code_nb.ipynb (Windows, Python 3.11)
+# Pinned to mutually compatible versions to avoid NumPy/Torch/OpenCV conflicts
+
+# Core numerics
+numpy==2.1.3
+
+# PyTorch stack (CPU by default; add CUDA index-url if needed)
+torch==2.4.1
+torchvision==0.19.1
+facenet-pytorch==2.5.3
+
+# Vision + plotting
+opencv-python==4.10.0.84
+Pillow==10.2.0
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Grad-CAM (install from GitHub branch archive; package metadata name is 'grad-cam')
+# If this 404s, replace 'master' with 'main' depending on the repo's default branch.
+grad-cam @ https://github.com/jacobgil/pytorch-grad-cam/archive/refs/heads/master.zip
+
+# Hugging Face BEiT + vision backbones
+transformers==4.44.2
+# BEiT depends on timm for vision models
+timm==0.9.16
+
+# Screen capture
+mss==9.0.1
+
+# Notes:
+# - If using CUDA wheels, install with the PyTorch extra index, e.g.:
+#   pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.4.1 torchvision==0.19.1
+# - tkinter is part of the Python standard library on Windows; no pip package needed.

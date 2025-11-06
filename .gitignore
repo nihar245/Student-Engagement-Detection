@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files (too large for Git)
+*.pth
+*.pt
+*.bin
+*.onnx
+*.h5
+
+# Dataset (too large)
+dataset/
+cv_dataset/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+results/
+
+# Checkpoints (only keep final model)
+checkpoint-*/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
